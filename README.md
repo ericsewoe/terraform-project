@@ -177,6 +177,13 @@ terraform apply
 
 ![Step 9 Screenshot](./screenshots/route-tables-verify.png)
 
+---
+
+## 👥 Collaborators
+
+- **Eric Gomado**
+- **Augustine Tetteh Ozor**
+
 
 
 
