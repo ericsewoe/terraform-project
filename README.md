@@ -17,6 +17,7 @@ This custom Terraform module provisions an AWS Virtual Private Cloud (VPC) with 
 - [Inputs](#inputs)
 - [Outputs](#outputs)
 - [Command Usage](#command-usage)
+- [Resource Confirmation](resources-confirmation)
 - [Examples](#examples)
 - [Contributing](#contributing)
 - [Authors](#authors)
@@ -123,12 +124,63 @@ module "vpc" {
 
 ### Command Usage
 
-```aws configure
+```bash
+aws configure
 ```
 
 ![Step 1 Screenshot](./screenshots/aws-configure.png)
 
 ---
+
+```bash
+terraform init
+```
+
+![Step 2 Screenshot](./screenshots/terraform-init.png)
+
+---
+
+```bash
+terraform plan
+```
+![Step 3 Screenshot](./screenshots/terraform-plan-1.png)
+![Step 3 Screenshot](./screenshots/terraform-plan-2.png)
+
+```bash
+terraform apply
+```
+
+![Step 4 Screenshot](./screenshots/terraform-apply-1.png)
+![Step 4 Screenshot](./screenshots/terraform-apply-2.png)
+
+---
+
+### Resource Confirmation
+
+- **VPC Confirmation**
+
+![Step 5 Screenshot](./screenshots/vpc-verify.png)
+
+- **Subnet Confirmation**
+
+![Step 6 Screenshot](./screenshots/subnets-verify.png)
+
+- **NAT Gateway Confirmation**
+
+![Step 7 Screenshot](./screenshots/nat-gateway-verify.png)
+
+- **Internet Gateway Confirmation**
+
+![Step 8 Screenshot](./screenshots/internet-gateway-verify.png)
+
+- **Route Table Confirmation**
+
+![Step 9 Screenshot](./screenshots/route-tables-verify.png)
+
+
+
+
+
 
 
 
