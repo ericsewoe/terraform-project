@@ -87,7 +87,7 @@ module "vpc" {
 
 ---
 
-## Inputs
+### Inputs
 
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|----------|
@@ -105,7 +105,7 @@ module "vpc" {
 
 ---
 
-## Outputs
+### Outputs
 
 | Name | Description |
 |------|-------------|
@@ -120,7 +120,7 @@ module "vpc" {
 
 ---
 
-## Command Usage
+### Command Usage
 
 ``
 aws configure
