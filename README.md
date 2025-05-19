@@ -123,8 +123,8 @@ module "vpc" {
 
 ### Command Usage
 
-``
-aws configure
+```aws configure
+```
 
 ![Step 1 Screenshot](./screenshots/aws-configure.png)
 
